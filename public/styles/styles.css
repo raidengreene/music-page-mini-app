@@ -1,0 +1,51 @@
+.editable-field {
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    display: inline-block;
+    min-width: 100px;
+    border: 1px solid transparent;
+}
+
+.editable-field:hover {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+}
+
+.editing {
+    background-color: #fff3cd !important;
+    border-color: #ffc107 !important;
+}
+
+.album-card {
+    transition: all 0.2s;
+}
+
+.album-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.click-hint {
+    font-size: 0.8em;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.save-indicator {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.save-indicator.show {
+    opacity: 1;
+}
+
+body {
+    background-color: #9f73e9;
+}
+
+.card {
+    background-color: #909ca7;
+}
